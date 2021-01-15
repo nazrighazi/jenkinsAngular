@@ -6,17 +6,17 @@ node{
     }
   
   stage('Install node modules'){
-    sh "npm install"
+    bat "npm install"
     
     }
     
   stage('Build'){
-    sh "npm run build"
+    bat "npm run build"
     
     }
     
   stage('Deploy'){
-    sh "ng serve"
+    bat "ng serve"
   }
     
 }
