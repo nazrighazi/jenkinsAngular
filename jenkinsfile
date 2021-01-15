@@ -15,4 +15,8 @@ node{
     
     }
     
+  stage('Deploy'){
+    sh "ng serve"
+  }
+    
 }
